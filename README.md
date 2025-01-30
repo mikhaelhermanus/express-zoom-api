@@ -6,7 +6,7 @@ Aplikasi ini memungkinkan pengguna untuk membuat, melihat, dan menghapus Zoom Me
 
 - Buat Zoom Meeting
 - Lihat daftar jadwal Zoom Meeting
-- Edit dan hapus Zoom Meeting
+- hapus Zoom Meeting
 - Sinkronisasi data dengan database
 
 ## 🛠️ Persyaratan
@@ -82,7 +82,6 @@ npm run dev
 
 - **POST** `/api/zoom/create` → Buat Zoom Meeting
 - **GET** `/api/zoom/list` → Lihat daftar Zoom Meeting
-- **PUT** `/api/zoom/update/:id` → Edit Zoom Meeting
 - **DELETE** `/api/zoom/delete/:id` → Hapus Zoom Meeting
 
 ---
